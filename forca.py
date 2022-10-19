@@ -34,7 +34,7 @@ def jogar():
         acertou = "_" not in letras_acertadas
         print(letras_acertadas)
 
-        #uso de count
+        #uso de count 
         letras_faltando = str(letras_acertadas.count('_'))
         print('Ainda faltam acertar {} letras'.format(letras_faltando))
 
